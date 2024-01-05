@@ -1,1 +1,15 @@
- chmod -R 777
+ chmod -R 777 
+scp -r /Users/parmitsingh/Downloads/hg19_bowtie2 pks14@argos-stgw2.dfci.harvard.edu:/mnt/storage/labs/aengelman/parmit_data/human_genome/
+pks14@argos-stgw2.dfci.harvard.edu's password: 
+scp: local opendir "/Users/parmitsingh/Downloads/hg19_bowtie2": Operation not permitted
+scp: failed to upload directory /Users/parmitsingh/Downloads/hg19_bowtie2 to /mnt/storage/labs/aengelman/parmit_data/human_genome/
+(base) Parmit-MacBook-Pro:~ parmitsingh$ chmod -R 777 /Users/parmitsingh/Downloads/hg19_bowtie2 
+(base) Parmit-MacBook-Pro:~ parmitsingh$ scp -r /Users/parmitsingh/Downloads/hg19_bowtie2 pks14@argos-stgw2.dfci.harvard.edu:/mnt/storage/labs/aengelman/parmit_data/human_genome/
+pks14@argos-stgw2.dfci.harvard.edu's password: 
+hg19.rev.2.bt2                                100%  684MB  21.5MB/s   00:31    
+hg19.3.bt2                                    100% 3833   311.2KB/s   00:00    
+hg19.2.bt2                                    100%  684MB  22.1MB/s   00:30    
+hg19.rev.1.bt2                                100%  916MB  21.9MB/s   00:41    
+hg19.1.bt2                                    100%  916MB  21.8MB/s   00:41    
+hg19.4.bt2                                    100%  684MB  20.4MB/s   00:33    
+make_hg19.sh                                  100% 3189   264.7KB/s   00:00  
